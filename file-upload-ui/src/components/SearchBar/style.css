@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+  .SearchBar>input {
+    box-sizing: border-box;
+    width     : 100%;
+    outline   : none;
+  }
+}

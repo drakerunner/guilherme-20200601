@@ -1,0 +1,31 @@
+.App {
+  display        : flex;
+  flex-direction : column;
+  justify-content: center;
+  align-items    : center;
+}
+
+.App>div {
+  width     : 100%;
+  max-width : 1000px;
+  padding   : 20px;
+  box-sizing: border-box;
+}
+
+.App>div>header {
+  display        : flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+  .App>div {
+    margin: 10px;
+  }
+
+  .App>div>header {
+    display       : flex;
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 960px) {}
